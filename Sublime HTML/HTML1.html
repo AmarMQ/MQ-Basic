@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<!-- Struktur dasar Portofolio HTML -->
+<html>
+
+	<head>
+	<!-- dalam head dapat diinput;
+		<title> untuk Judul laman
+		<style> untuk CSS
+		<script> untuk Java
+		<meta> untuk Metadata (mempermudah indexing untuk search engine)-->
+
+		<meta charset="utf-8">
+		<meta name="description" content="Belajar HTML">
+		<meta name="keywords" content="HTML">
+		<meta name="author" content="MQ Amar,Muammar Qadafi">
+		<title>Portofolio HTML</title>
+	</head>
+	
+	<body>
+		
+		<div>
+		<!-- Penerapan heading - h1 sd h6 pada html -->
+		<!-- Estetika tampilah dapat menggunakan;
+			<b> untuk bold
+			<I> untuk italic
+			<u> untuk underline -->
+		<!-- Penambahan makna / penekanan pada text menggunakan;
+		 	<strong> untuk penekanan yang tegas
+		 	<em> 	 untuk sub penekanan yang lebih lembut-->
+
+			<center><h1> <strong>Kiat Belajar</strong> <u>Web Programing</u> </h1>
+			<h2> Cara Tepat <em>Tanpa Melarat</em> </h2></center>
+		</div>
+
+		<hr>
+		<!-- penambahan <hr> untuk memberikan garis pemisah pada screen -->
+
+		<div>
+		<!-- Menambahkan img dan scr dari web -->
+		<!-- pengaturan size gambar menggunakan <width> atau <height> pilih salah satu saja karena akan otomatis disesuaikan -->
+		<!-- untuk ukuran disarankan menggunakan (%) untuk lebih fleksibel ketika digunakan di device yang berbeda -->
+		<h2> Materi No.1 </h2>
+			<h3> Menambahkan Gambar dari Source </h3>
+			<br> <center><a href="https://www.google.com" target="_blank"><img border="5" src="Phantazy Logo.png" alt="gambar icon web" width="25%"></a></center>
+			<br><center>Gambar Icon Berupa Web<br>
+			<a href="tel:+628120000000" target="_blank">My Number</a></center>
+		</div>
+
+<br><br><br><br><br>
+		
+		<div>
+		<!-- Penggunaan List ol,ul dan dl(dt > dd) -->
+		<h2> Materi No.2 </h2>	
+		<h3> Penggunaan Order List, Unorder List dan Definition List </h3>
+		
+		<p> Penggunaan Order List </p>
+		<!-- untuk order list bisa menggunakan "type" format "1,A,a.I.i" (Pilih salah satu)	-->
+			<ol type="a"> 
+				<li> Bangun Pagi </li>
+				<li> Beberes Pagi </li>
+				<li> Streching </li>
+			</ol>
+			
+		<p> Penggunaan Unorder List </p>
+		<!-- untuk unorder list bisa menggunakan "type" format "disc,square,circle" (Pilih salah satu) -->
+			<ul type="square">
+				<li>Skiping Jump</li>
+				<li>Jump Jack</li>
+				<li>Side Squad</li>
+			</ul>
+
+			<p> Penggunaan Define List (Daftar Penjelas) </p>
+			<!-- digunakan untuk memberikan penjelasan / penekanan makna pada suatu text -->
+			<!-- susunan penggunaan;
+				<dl> untuk perintah define line
+				<dt> untuk text yang akan di define
+				<dd> untuk deskripsi <dt> -->
+			<!-- setiap <dt> harus disertai <dd> -->
+
+			<dl>
+				<dt><strong>HTML</strong></dt>
+					<dd><em>Hyper Text Markup Language</em></dd>
+				<dt><strong>CSS</strong></dt>
+					<dd><em>Cascading Style Sheet</em></dd>
+			</dl>
+
+		</div>
+
+<br><br><br><br><br>
+
+		<div>
+			<h2> Materi No.3 </h2>
+			<h3> Menggunakan referal link </h3>
+			<!-- Menambahkan direct link dengan membuka tab baru -->
+				<p><a href="https://www.google.com" target="_blank"> klik disini </a> kamu juga bisa melakukan 
+				<a href="https://www/youtube.com" target="_blank"> klik disini </a></p>
+		</div>
+
+<br><br><br><br><br>
+
+		<div>
+			<h2> Materi No.4 </h2>
+			<h3>Pengunaan Table</h3>
+			<!-- 
+				<tr> digunakan untuk perintah format table
+				<cellspacing> untuk spasi jarak tabel (disarankan "nol") agar tidak doble line
+				<cellpadding> untuk luas data entry -->
+<ul>
+	<li><label for="A.Simple Table">A.Simple Table</label>
+			<table border="1" cellspacing="0" cellpadding="5"></li>
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>4</td>
+					<td>6</td>
+				</tr>
+			</table> <caption>
+			<label id="A.Simple Table">Simple Table</label></caption>
+		<br><br><br>
+
+<li><label for="B.Complex Table">B.Complex Table</label>
+			<table border="1" cellspacing="0" cellpadding="5"></li>
+				<thead>
+					<tr>
+						<th>Example :</th>
+						<th>Block 1</th>
+						<th>Block 2</th>
+						<th>Block 3</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>Row 1</th>
+						<td>B*R 1.1</td>
+						<td>B*R 1.2</td>
+						<td>B*R 1.3</td>
+					</tr>
+					<!-- untuk penambahan baris ke 2 dst, buat <tr> baru -->
+					<tr>
+						<th>Row 2</th>
+						<td>B*R 2.1</td>
+						<td>B*R 2.2</td>
+						<td>B*R 2.3</td>
+					</tr>
+					<tr>
+						<th>Row 3</th>
+						<td>B*R 3.1</td>
+						<td>B*R 3.2</td>
+						<td>B*R 3.2</td>
+					</tr>
+				</tbody>
+			</table><caption>
+			<label id="B.Complex Table">Complex Table</label></caption>
+			<br><br><br>
+		
+<li><label for="C.Merging Table">C.Merging Table</label></li>
+			<table border="1" cellspacing="0" cellpadding="7">
+				<!-- Menggabungkan dua kolom table;
+				<colspan> untuk merge mendatar
+				<rowspan> untuk merge menurun
+
+				Jangan lupa menambahkan jumlah tabel yang akan di merge pada atribut rowspan=("  ")
+				 -->
+				<tr>
+					<td rowspan="3">1<br><br>2<br><br>3</td>
+					<td colspan="2">2 . 3</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>6</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>9</td>
+				</tr>
+			</table><caption>
+			<label id="C.Merging Table">Merging Table</label></caption>
+			<br><br><br>
+
+<li><label for="D.Complex Merging Table">D.Complex Merging Table</label></li>
+			<table border="1" cellspacing="0" cellpadding="5">
+				<thead>
+					<tr>
+						<th>Example :</th>
+						<th>Block 1</th>
+						<th>Block 2</th>
+						<th>Block 3</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>Row 1</th>
+						<center><td colspan="2" rowspan="2">B*R 1.1 + 1.2<br>
+						B*R 2.1 + 2.2</td>
+						<td>B*R 1.3</td></center>
+					</tr>
+					<!-- untuk penambahan baris ke 2 dst, buat <tr> baru -->
+					<tr>
+						<th>Row 2</th>
+						<td>B*R 2.3</td>
+					</tr>
+					<tr>
+						<th>Row 3</th>
+						<td>B*R 3.1</td>
+						<td>B*R 3.2</td>
+						<td>B*R 3.3</td>
+					</tr>
+				</tbody>
+			</table><caption>
+			<label id="D.Complex Merging Table">Complex Merging Table</label></caption>
+				</thead>
+			</table></ul>	
+		</div>
+		<br><br><br>
+
+		<div>
+			<!-- dalam penggunaan <label> for= harus disertai id= dan memiliki nilai yang sama
+			Agar ketika di (klik) akan mengaktifkan ketika kursor diposisi text yang akan di isi -->
+			<form>
+				<label for="username">username	:</label>
+				<input type="text" id="username">
+				<br>
+
+				<label for="password">password	:</label>
+				<input type="password" id="password">
+				<br><br>
+
+				<input type="radio" id="pria" name="kelamin"><label for="pria">pria</label>
+
+				<input type="radio" id="wanita" name="kelamin"><label for="wanita">wanita</label><br><br>
+
+			<!-- dalam pengolahan penggunan <input> agar data yang diberikan pengguna dapat dibaca oleh sistem untuk diolah, dibutuhkan (name) dan (<)value) sebagai atribut-->
+				<input type="checkbox" name="hobi_user" value="0" id="menyanyi"><label for="menyanyi">menyanyi</label>
+				<br>
+				<input type="checkbox" name="hobi_user" value="1" id="gameing"><label for="gameing">gameing</label>
+				<br>
+				<input type="checkbox" name="hobi_user" value="2" id="olahraga"><label for="olahraga">olahraga</label><br><br>
+
+				<textarea cols="100" rows="10">Text here</textarea><br>
+			<!-- penggunaan attri; cols dan rows pada <textarea> sebagai size dari text area yang tampil -->
+				<select>
+					<option>Years</option>
+					<option>2000</option>
+					<option>2001</option>
+					<option>2003</option>
+				</select>
+				<select>
+					<option >Month</option>
+					<option>Jan</option>
+					<option>Feb</option>
+					<option>Mar</option>
+				</select>
+				<select>
+					<option>Days</option>
+					<option>01</option>
+					<option>02</option>
+					<option>03</option>
+				</select> <br><br>
+				<button type="submit">Send Now!</button>
+			</form>
+		</div>
+	</body>
+
+</html>

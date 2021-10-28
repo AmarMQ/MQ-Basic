@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Generator Table</title>
+	</head>
+
+	<body>
+		<form>
+			<fieldset>
+			<!-- <fieldset> digunakan untuk memberikan kolom paragraf pada user -->
+
+			<legend>User Register</legend>
+			<!-- <legend> untuk inline text pada <fieldset> -->
+			<table border="0">
+			
+			<tbody>
+			  <tr>
+			    <td colspan="4">Form Pengisian Data User</td>
+			  </tr>
+			  <tr>
+			    <td><label for="nama_user" >Nama</label></td>
+			    <td colspan="3"><input type="text" id="nama_user" placeholder="Nama Anda" value="Nama"></td>
+			  </tr>
+			  <tr>
+			    <td><label>Hobi</label></td>
+			    <td><input type="checkbox" name="hobi_user" value="0"> Makan</td>
+			    <td><input type="checkbox" name="hobi_user" value="1"> Rebahan</td>
+			    <td><input type="checkbox" name="hobi_user" value="2"> Beban</td>
+			  </tr>
+			  <tr>
+			    <td><label>Gender</label></td>
+			    <td><input type="radio" name="Gender" value="0" checked> Man</td>
+			    <td><input type="radio" name="Gender" value="1"> Woman</td>
+			    <td></td>
+			  </tr>
+			  <tr>
+			    <td><label>Status</label>
+			    <td colspan="3">
+							<select>
+								<optgroup label="Man">
+								<option value="mn">Nikah</option>
+								<option value="mtn">T.Nikah</option>
+								<option value="md">Duda</option>
+								<optgroup label="Woman">
+								<option value="wn">Nikah</option>
+								<option value="wtn">T.Nikah</option>
+								<option value="wj">Janda</option>
+							</select></td>
+				  </tr>
+
+				</tbody>
+			</table>
+			</fieldset>
+		</form>
+
+				  	<br><button type="submit">Selesai!</button>
+
+	</body>
+</html>
